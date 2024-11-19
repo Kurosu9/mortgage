@@ -1,0 +1,122 @@
+.login {
+    position: fixed;
+    display: block;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.login_inner button {
+    width: 134px;
+    height: 40px;
+    padding: 10px, 39px;
+    border-radius: 5px;
+    border: none;
+    background: #6482AD;
+    font-size: 17px;
+    font-weight: 310;
+    line-height: 19px;
+    color: white;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+.login_inner button:hover {
+    background-color: white;
+    color: rgb(48, 33, 126);
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.login h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.login_inner input {
+    flex: 1;
+    outline: none;
+    width: 340px;
+    height: 51px;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 22px;
+    color: black
+}
+
+.login_inner form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_inner label {
+    width: 340px;
+    height: 16px;
+    font-size: 13px;
+    font-weight: 510;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.login_inner {
+    margin: 130px auto;
+    width: 430px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.login_inner div:nth-child(1) {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.login_signup {
+    margin: 10px 0;
+}
+
+.login_signup a {
+    font-size: 16px;
+    font-weight: 510;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #666666;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.login_signup a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.login_fpwd a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 510;
+    line-height: 17px;
+    transition: 0.2s;
+}
+
+.login_fpwd a:hover {
+    color: black;
+    text-decoration: underline;
+}
+

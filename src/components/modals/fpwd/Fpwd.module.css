@@ -1,0 +1,99 @@
+.forgot {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.forgot button {
+    width: 150px;
+    height: 38px;
+    padding: 10px, 39px;
+    border-radius: 5px;
+    border: none;
+    background: #6482AD;
+    font-size: 16px;
+    font-weight: 310;
+    line-height: 19px;
+    color: white;
+    transition: 0.2s;
+}
+
+.forgot button:hover {
+    background-color: white;
+    color: rgb(48, 33, 126);
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.forgot input {
+    flex: 1;
+    outline: none;
+    width: 340px;
+    height: 51px;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 22px;
+    color: black;
+}
+
+.forgot form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forgot label {
+    width: 340px;
+    height: 16px;
+    font-size: 13px;
+    font-weight: 510;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 6px;
+    color: #666666;
+}
+
+.forgot_inner {
+    margin: 40px auto;
+    padding: 20px;
+    width: 430px;
+    height: 440px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+}
+
+.forgot_inner h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.text {
+    width: 340px;
+    height: 100px;
+    border-radius: 18px;
+    background-color: #f5f5f5;
+    margin: 22px 0px;
+    padding: 20px 34px;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+}
+  

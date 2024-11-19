@@ -1,0 +1,79 @@
+.footer {
+    background-color: #7FA1C3;
+    border-top: 2px solid #6482AD;
+    bottom: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.footer_inner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1300px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.contacts h3, .social h3, .company_info h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contacts p, .company_info p {
+    margin-bottom: 10px;
+}
+
+.about p {
+    cursor: pointer;
+}
+
+.face, .twit, .insta {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.face {
+    width: 103px;
+}
+
+.twit {
+    width: 84px;
+}
+
+.insta {
+    width: 110px;
+}
+
